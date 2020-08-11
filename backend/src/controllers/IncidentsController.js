@@ -7,6 +7,7 @@ module.exports = {
             E busca no banco de dados todos os dados de uma ong
             os dados dela e seus casos.
         */
+        const [ count ] = await connection('incidents').count()
         const { page = 1 } = request.query
         const incidents = await connection('incidents')
             .join('ongs', 'ong_id', '=', 'incidents.ong_id')
@@ -22,7 +23,6 @@ module.exports = {
                 ])
 
         // Retorna um Objeto com o total de registro
-        const [ count ] = await connection('incidents').count()
         response.header('X-Total-Count', count['count(*)'])
 
         return response.json(incidents)
