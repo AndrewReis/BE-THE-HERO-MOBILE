@@ -10,7 +10,7 @@
  <a href="#clone">Clonar Repositório</a> 
  <a href="#autor">Autor</a> 
 </p>
-<p  align="center"><a href="https://github.com/AndrewReis/BE-THE-HERO-WEB/blob/master/LICENSE.txt"><img alt="GitHub license" src="https://img.shields.io/github/license/AndrewReis/BE-THE-HERO-WEB-MOBILE"></a></p>
+<p  align="center"><a href="https://github.com/AndrewReis/BE-THE-HERO-WEB/blob/master/LICENSE.txt"><img alt="GitHub license" src="https://img.shields.io/github/license/AndrewReis/BE-THE-HERO-MOBILE"></a></p>
 
 <h4 align="center"> 
 	🚀  Projeto em Andamento.  🚀
